@@ -1,0 +1,140 @@
+# Install required libraries if not already installed
+install.packages("readr")
+install.packages("ggplot2")
+install.packages("corrplot")
+install.packages("ggcorrplot")
+install.packages("reshape2")
+install.packages("dplyr")
+install.packages("tidyverse")
+
+# Load the libraries
+library(readr)
+library(ggplot2)
+library(corrplot)
+library(ggcorrplot)
+library(reshape2)
+library(dplyr)
+library(tidyverse)
+
+# Set the working directory (optional, you can set your own working directory)
+setwd("C:/Users/lenovo/Desktop/Freelancing/R programming")
+
+# Import the dataset
+insurance <- read_csv("insurance.csv")
+
+# Check the first few rows of the dataset
+head(insurance)
+
+# Visualizing the distribution of each variable
+ggplot(data = melt(insurance[, -6]), aes(x = value)) +
+  geom_histogram(bins = 10, fill = "skyblue", color = "black") +
+  facet_wrap(~variable, scales = "free_x") +
+  labs(title = "Distribution of Variables")
+
+# Categorical variable visualizations for sex, smoker, and region
+ggplot(data = insurance) + 
+  geom_bar(mapping = aes(x = as.factor(sex))) + 
+  labs(title = "Sex Distribution")
+
+ggplot(data = insurance) + 
+  geom_bar(mapping = aes(x = smoker)) + 
+  labs(title = "Smoker Distribution")
+
+ggplot(data = insurance) + 
+  geom_bar(mapping = aes(x = region)) + 
+  labs(title = "Region Distribution")
+
+# Boxplot: Charges with respect to smoking status
+ggplot(data = insurance) + 
+  geom_boxplot(aes(x = smoker, y = charges, fill = smoker)) + 
+  labs(title = "Charges vs Smoking Status")
+
+# Boxplot: Charges with respect to BMI (and obesity status)
+ggplot(data = insurance) + 
+  geom_boxplot(aes(x = factor(ifelse(bmi >= 30, "Obese", "Non-Obese")), y = charges)) + 
+  labs(title = "Charges vs Obesity Status")
+
+# Adding 'obese' feature
+insurance <- insurance %>% mutate(obese = ifelse(bmi >= 30, "yes", "no"))
+
+# Group by smoker and obese to analyze average charges
+averageCharges <- insurance %>%
+  group_by(smoker, obese) %>%
+  summarise(
+    count = n(),
+    average_charge = mean(charges, na.rm = TRUE), 
+    stdev_charge = sd(charges, na.rm = TRUE)
+  )
+print(averageCharges)
+
+# Convert categorical variables to factors
+insurance$obese <- as.factor(insurance$obese)
+insurance$smoker <- as.factor(insurance$smoker)
+insurance$sex <- as.factor(insurance$sex)
+insurance$region <- as.factor(insurance$region)
+
+# Split data into training and testing datasets
+set.seed(134)  # for reproducibility
+sampleSize <- floor(0.75 * nrow(insurance))
+trainIndexes <- sample(seq_len(nrow(insurance)), sampleSize, replace = FALSE)
+train <- insurance[trainIndexes, ]
+test <- insurance[-trainIndexes, ]
+
+# Multiple Linear Regression Model 1 (without 'bmi')
+lm.fit.m.1 <- lm(charges ~ . - bmi, data = train)
+summary(lm.fit.m.1)
+
+# Plot diagnostic plots for model 1
+par(mfrow = c(2, 2))
+plot(lm.fit.m.1)
+
+# Simplifying the model by removing insignificant variables (sex and region)
+lm.fit.m.2 <- lm(charges ~ . - bmi - sex - region, data = train)
+summary(lm.fit.m.2)
+
+# Plot diagnostic plots for simplified model
+par(mfrow = c(2, 2))
+plot(lm.fit.m.2)
+
+# Adding interaction term between obese and smoker
+lm.fit.m.3 <- lm(charges ~ obese * smoker + age + children, data = train)
+summary(lm.fit.m.3)
+
+# Plot diagnostic plots for model with interaction term
+par(mfrow = c(2, 2))
+plot(lm.fit.m.3)
+
+# Further simplifying by removing 'children'
+lm.fit.m.4 <- lm(charges ~ obese * smoker + age, data = train)
+summary(lm.fit.m.4)
+
+# Plot diagnostic plots for the final model
+par(mfrow = c(2, 2))
+plot(lm.fit.m.4)
+
+# Predicting values for the test data
+predictions <- predict(lm.fit.m.4, newdata = test)
+
+# Plot the predicted vs actual values
+ggplot(data = test, aes(x = charges, y = predictions)) +
+  geom_point() +
+  geom_smooth(method = "lm", se = FALSE) +
+  labs(title = "Predicted vs Actual Charges")
+
+# Residual plot for test data
+residuals <- test$charges - predictions
+ggplot(data = test, aes(x = predictions, y = residuals)) +
+  geom_point() +
+  geom_smooth(method = "lm", se = FALSE) +
+  labs(title = "Residuals vs Predicted Charges")
+
+# Display residuals summary
+summary(residuals)
+
+# Multiple Linear Regression Model 2 (using selected variables)
+lm.fit.m.2 <- lm(charges ~ age + children + smoker + obese, data = train)
+summary(lm.fit.m.2)
+
+# Diagnostic plots for Model 2
+par(mfrow = c(2, 2))
+plot(lm.fit.m.2)
