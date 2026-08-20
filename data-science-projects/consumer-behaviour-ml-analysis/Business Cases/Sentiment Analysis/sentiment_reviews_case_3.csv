@@ -1,0 +1,101 @@
+review_id,platform,comment,sentiment
+1,Instagram,The food was delicious and arrived on time,Positive
+2,X,The food was cold and arrived late,Negative
+3,Facebook,Great service and fast delivery,Positive
+4,Instagram,Very slow delivery and poor service,Negative
+5,X,Loved the taste and quality of the food,Positive
+6,Facebook,The food tasted bad and was low quality,Negative
+7,Instagram,Very happy with my order,Positive
+8,X,Very disappointed with my order,Negative
+9,Facebook,Excellent delivery experience,Positive
+10,Instagram,Terrible delivery experience,Negative
+11,X,Food was fresh and well packed,Positive
+12,Facebook,Food was spilled and poorly packed,Negative
+13,Instagram,Fast delivery and friendly driver,Positive
+14,X,Driver was rude and delivery was late,Negative
+15,Facebook,Amazing food and great service,Positive
+16,Instagram,Awful food and bad service,Negative
+17,X,Very satisfied with the quality,Positive
+18,Facebook,Not satisfied with the quality,Negative
+19,Instagram,The app is easy to use,Positive
+20,X,The app keeps crashing,Negative
+21,Facebook,Everything was perfect,Positive
+22,Instagram,Nothing worked properly,Negative
+23,X,Loved the variety of restaurants,Positive
+24,Facebook,Limited options and poor selection,Negative
+25,Instagram,Highly recommend this app,Positive
+26,X,I do not recommend this app,Negative
+27,Facebook,Great experience overall,Positive
+28,Instagram,Bad experience overall,Negative
+29,X,The delivery was quick,Positive
+30,Facebook,The delivery was very slow,Negative
+31,Instagram,Food quality was excellent,Positive
+32,X,Food quality was terrible,Negative
+33,Facebook,Very convenient service,Positive
+34,Instagram,Very inconvenient service,Negative
+35,X,Loved my meal,Positive
+36,Facebook,Hated my meal,Negative
+37,Instagram,Everything was fresh and tasty,Positive
+38,X,Everything was cold and tasteless,Negative
+39,Facebook,Good portion size,Positive
+40,Instagram,Very small portion size,Negative
+41,X,Fantastic service,Positive
+42,Facebook,Poor service,Negative
+43,Instagram,Very smooth ordering process,Positive
+44,X,Ordering process was confusing,Negative
+45,Facebook,Excellent packaging,Positive
+46,Instagram,Packaging was damaged,Negative
+47,X,Very fast and reliable,Positive
+48,Facebook,Very slow and unreliable,Negative
+49,Instagram,Great food and fast delivery,Positive
+50,X,Bad food and late delivery,Negative
+51,Facebook,Very happy with the service,Positive
+52,Instagram,Very unhappy with the service,Negative
+53,X,Amazing taste and quality,Positive
+54,Facebook,Terrible taste and quality,Negative
+55,Instagram,Everything arrived perfectly,Positive
+56,X,Everything arrived damaged,Negative
+57,Facebook,Easy and fast checkout,Positive
+58,Instagram,Checkout process failed,Negative
+59,X,Very good experience,Positive
+60,Facebook,Very bad experience,Negative
+61,Instagram,Loved the service,Positive
+62,X,Hated the service,Negative
+63,Facebook,Great delivery time,Positive
+64,Instagram,Late delivery time,Negative
+65,X,Food was hot and fresh,Positive
+66,Facebook,Food was cold and stale,Negative
+67,Instagram,Very reliable service,Positive
+68,X,Very unreliable service,Negative
+69,Facebook,Good value for money,Positive
+70,Instagram,Not worth the price,Negative
+71,X,Highly satisfied,Positive
+72,Facebook,Highly dissatisfied,Negative
+73,Instagram,Everything was great,Positive
+74,X,Everything was bad,Negative
+75,Facebook,Excellent overall experience,Positive
+76,Instagram,Terrible overall experience,Negative
+77,X,Loved the fast delivery,Positive
+78,Facebook,Hated the slow delivery,Negative
+79,Instagram,Very efficient service,Positive
+80,X,Very inefficient service,Negative
+81,Facebook,Great quality food,Positive
+82,Instagram,Poor quality food,Negative
+83,X,Amazing experience,Positive
+84,Facebook,Awful experience,Negative
+85,Instagram,Very good service,Positive
+86,X,Very bad service,Negative
+87,Facebook,Fast and easy service,Positive
+88,Instagram,Slow and difficult service,Negative
+89,X,Everything worked perfectly,Positive
+90,Facebook,Nothing worked properly,Negative
+91,Instagram,Very satisfied customer,Positive
+92,X,Very dissatisfied customer,Negative
+93,Facebook,Loved the app experience,Positive
+94,Instagram,Hated the app experience,Negative
+95,X,Excellent service overall,Positive
+96,Facebook,Poor service overall,Negative
+97,Instagram,Great experience from start to finish,Positive
+98,X,Bad experience from start to finish,Negative
+99,Facebook,Fantastic food delivery service,Positive
+100,Instagram,Horrible food delivery service,Negative

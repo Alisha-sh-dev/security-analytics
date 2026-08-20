@@ -1,0 +1,101 @@
+review_id,platform,comment,sentiment
+1,Instagram,"I love this product, amazing quality and fast delivery",Positive
+2,X,"Terrible service, I am very disappointed",Negative
+3,Facebook,Great prices and excellent quality,Positive
+4,Instagram,The product arrived broken and useless,Negative
+5,X,"Amazing experience, I will buy again",Positive
+6,Facebook,"Very bad quality, waste of money",Negative
+7,Instagram,Super happy with my purchase,Positive
+8,X,"Worst experience ever, very frustrating",Negative
+9,Facebook,Customer service was very helpful and friendly,Positive
+10,Instagram,"I hate this product, very poor quality",Negative
+11,X,Best online shopping experience,Positive
+12,Facebook,Delivery was late and unacceptable,Negative
+13,Instagram,Beautiful design and great material,Positive
+14,X,Completely disappointed with this order,Negative
+15,Facebook,Very satisfied with my purchase,Positive
+16,Instagram,The product does not match the description,Negative
+17,X,Excellent service and fast response,Positive
+18,Facebook,This is the worst product I have bought,Negative
+19,Instagram,Good value for money,Positive
+20,X,Very poor customer support,Negative
+21,Facebook,I really like this brand,Positive
+22,Instagram,This was a terrible decision,Negative
+23,X,Fantastic quality and great service,Positive
+24,Facebook,The item arrived damaged,Negative
+25,Instagram,Highly recommend this product,Positive
+26,X,Not worth the price at all,Negative
+27,Facebook,Very good experience overall,Positive
+28,Instagram,I am unhappy with this purchase,Negative
+29,X,Love the quality and design,Positive
+30,Facebook,"Awful experience, never again",Negative
+31,Instagram,Great customer service and fast delivery,Positive
+32,X,Bad quality and very disappointing,Negative
+33,Facebook,Very happy with the product,Positive
+34,Instagram,The product stopped working after one day,Negative
+35,X,"Excellent product, I love it",Positive
+36,Facebook,Very frustrating experience,Negative
+37,Instagram,Amazing quality and good price,Positive
+38,X,The service was terrible,Negative
+39,Facebook,I am very satisfied,Positive
+40,Instagram,The product is defective,Negative
+41,X,Fast delivery and great packaging,Positive
+42,Facebook,Poor experience and bad quality,Negative
+43,Instagram,I really enjoyed this purchase,Positive
+44,X,Completely useless product,Negative
+45,Facebook,Great service and helpful staff,Positive
+46,Instagram,Very disappointing product,Negative
+47,X,High quality and excellent design,Positive
+48,Facebook,The item arrived late and damaged,Negative
+49,Instagram,I would definitely recommend this,Positive
+50,X,This is not good at all,Negative
+51,Facebook,Very good quality product,Positive
+52,Instagram,Worst customer service ever,Negative
+53,X,I am very happy with my order,Positive
+54,Facebook,The product is low quality,Negative
+55,Instagram,Excellent shopping experience,Positive
+56,X,I regret buying this,Negative
+57,Facebook,Great value and good quality,Positive
+58,Instagram,Very poor packaging,Negative
+59,X,Amazing product and fast delivery,Positive
+60,Facebook,The service was bad,Negative
+61,Instagram,Very pleased with this purchase,Positive
+62,X,Terrible product quality,Negative
+63,Facebook,I love this brand,Positive
+64,Instagram,The product is broken,Negative
+65,X,Fantastic experience overall,Positive
+66,Facebook,Very disappointed with the service,Negative
+67,Instagram,Good quality and nice design,Positive
+68,X,This was a bad purchase,Negative
+69,Facebook,I am satisfied with the product,Positive
+70,Instagram,Very poor experience,Negative
+71,X,Great product and fast shipping,Positive
+72,Facebook,The product is not good,Negative
+73,Instagram,Excellent quality and service,Positive
+74,X,Worst purchase I have made,Negative
+75,Facebook,Very happy with the quality,Positive
+76,Instagram,The item is defective,Negative
+77,X,I really like this product,Positive
+78,Facebook,Very bad experience,Negative
+79,Instagram,Amazing service and product,Positive
+80,X,The product arrived damaged,Negative
+81,Facebook,Good experience overall,Positive
+82,Instagram,Very disappointing service,Negative
+83,X,Excellent value for money,Positive
+84,Facebook,Poor quality and bad service,Negative
+85,Instagram,I am very satisfied with this,Positive
+86,X,Not recommended at all,Negative
+87,Facebook,Great quality and fast delivery,Positive
+88,Instagram,The product is useless,Negative
+89,X,Very good and reliable,Positive
+90,Facebook,Completely unhappy with this,Negative
+91,Instagram,Fantastic product quality,Positive
+92,X,Very poor customer experience,Negative
+93,Facebook,I love this purchase,Positive
+94,Instagram,The product is not working,Negative
+95,X,Highly satisfied with the service,Positive
+96,Facebook,Bad product and slow delivery,Negative
+97,Instagram,Great experience overall,Positive
+98,X,Very disappointing purchase,Negative
+99,Facebook,Excellent and reliable service,Positive
+100,Instagram,This product is terrible,Negative

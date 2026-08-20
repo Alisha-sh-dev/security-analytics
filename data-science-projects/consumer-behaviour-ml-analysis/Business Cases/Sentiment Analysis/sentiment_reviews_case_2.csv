@@ -1,0 +1,101 @@
+review_id,platform,comment,sentiment
+1,Instagram,"The room was clean and very comfortable, I loved my stay",Positive
+2,X,The room was dirty and smelled bad,Negative
+3,Facebook,Excellent service and friendly staff,Positive
+4,Instagram,The staff was rude and unhelpful,Negative
+5,X,Great location and beautiful hotel,Positive
+6,Facebook,"Terrible location, very noisy at night",Negative
+7,Instagram,Very satisfied with my stay,Positive
+8,X,Very disappointed with the room quality,Negative
+9,Facebook,"Amazing experience, highly recommended",Positive
+10,Instagram,The air conditioning was not working,Negative
+11,X,The breakfast was delicious and fresh,Positive
+12,Facebook,The breakfast was cold and tasteless,Negative
+13,Instagram,Fast check-in and smooth service,Positive
+14,X,Check-in took too long and was frustrating,Negative
+15,Facebook,The bed was very comfortable,Positive
+16,Instagram,The bed was uncomfortable and old,Negative
+17,X,Beautiful hotel design and atmosphere,Positive
+18,Facebook,The hotel looked outdated and poorly maintained,Negative
+19,Instagram,Great value for money,Positive
+20,X,Too expensive for such poor service,Negative
+21,Facebook,I really enjoyed my stay here,Positive
+22,Instagram,I regret staying at this hotel,Negative
+23,X,Staff was very professional and helpful,Positive
+24,Facebook,Staff ignored my requests,Negative
+25,Instagram,Clean rooms and great service,Positive
+26,X,Room was not cleaned properly,Negative
+27,Facebook,The view from the room was amazing,Positive
+28,Instagram,The view was blocked and disappointing,Negative
+29,X,Everything was perfect,Positive
+30,Facebook,Nothing worked properly,Negative
+31,Instagram,Very relaxing and enjoyable stay,Positive
+32,X,Very stressful experience,Negative
+33,Facebook,Great amenities and facilities,Positive
+34,Instagram,Facilities were broken and unusable,Negative
+35,X,Loved the hotel atmosphere,Positive
+36,Facebook,Hated the noise and poor insulation,Negative
+37,Instagram,Excellent housekeeping service,Positive
+38,X,Housekeeping was slow and inefficient,Negative
+39,Facebook,The hotel exceeded my expectations,Positive
+40,Instagram,The hotel did not meet expectations,Negative
+41,X,Friendly staff and quick service,Positive
+42,Facebook,Unfriendly staff and slow service,Negative
+43,Instagram,Very clean and well-maintained,Positive
+44,X,Dirty and poorly maintained rooms,Negative
+45,Facebook,I would definitely come back,Positive
+46,Instagram,I will never come back,Negative
+47,X,Fantastic experience overall,Positive
+48,Facebook,Awful experience overall,Negative
+49,Instagram,Everything was well organized,Positive
+50,X,Everything was chaotic and poorly managed,Negative
+51,Facebook,Very pleasant stay,Positive
+52,Instagram,Very unpleasant stay,Negative
+53,X,Loved the service and attention,Positive
+54,Facebook,Service was very poor,Negative
+55,Instagram,Great hotel for families,Positive
+56,X,Not suitable for families at all,Negative
+57,Facebook,Comfortable and relaxing environment,Positive
+58,Instagram,Uncomfortable and noisy environment,Negative
+59,X,Highly satisfied with my stay,Positive
+60,Facebook,Highly dissatisfied with my stay,Negative
+61,Instagram,Everything was clean and fresh,Positive
+62,X,Everything felt old and dirty,Negative
+63,Facebook,Very good experience,Positive
+64,Instagram,Very bad experience,Negative
+65,X,The service was excellent,Positive
+66,Facebook,The service was terrible,Negative
+67,Instagram,Amazing hotel and great staff,Positive
+68,X,Bad hotel and rude staff,Negative
+69,Facebook,Very enjoyable stay,Positive
+70,Instagram,Very disappointing stay,Negative
+71,X,Good quality and great comfort,Positive
+72,Facebook,Poor quality and no comfort,Negative
+73,Instagram,Everything was perfect and smooth,Positive
+74,X,Everything was frustrating and slow,Negative
+75,Facebook,Loved every moment here,Positive
+76,Instagram,Hated every moment here,Negative
+77,X,Fantastic service and facilities,Positive
+78,Facebook,Terrible facilities and service,Negative
+79,Instagram,Great hotel experience,Positive
+80,X,Worst hotel experience,Negative
+81,Facebook,"Clean, quiet and comfortable",Positive
+82,Instagram,"Dirty, noisy and uncomfortable",Negative
+83,X,Excellent customer experience,Positive
+84,Facebook,Poor customer experience,Negative
+85,Instagram,Very welcoming staff,Positive
+86,X,Very rude staff,Negative
+87,Facebook,Smooth and enjoyable stay,Positive
+88,Instagram,Difficult and stressful stay,Negative
+89,X,Everything was excellent,Positive
+90,Facebook,Everything was terrible,Negative
+91,Instagram,Highly recommended hotel,Positive
+92,X,Not recommended at all,Negative
+93,Facebook,Loved the comfort and service,Positive
+94,Instagram,Disliked the comfort and service,Negative
+95,X,Very satisfied overall,Positive
+96,Facebook,Very unsatisfied overall,Negative
+97,Instagram,Great experience from start to finish,Positive
+98,X,Bad experience from start to finish,Negative
+99,Facebook,Wonderful stay,Positive
+100,Instagram,Horrible stay,Negative
